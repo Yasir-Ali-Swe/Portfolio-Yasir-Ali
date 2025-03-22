@@ -37,4 +37,4 @@ Make sure you have the following installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Yasir-Ali-Swe/portfolio-website.git
+   git clone https://github.com/Yasir-Ali-Swe/Portfolio-Yasir-Ali.git
