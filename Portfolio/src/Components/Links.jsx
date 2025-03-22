@@ -1,15 +1,25 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Links = () => {
     return (
         <>
-            <ul className='flex gap-4 text-textColor'>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/services">Services</Link></li>
-                <li><Link to="/skills">Skills</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+            <ul className='flex flex-col absolute top-4 left-0 w-full items-center z-50 lg:static lg:flex lg:flex-row gap-4 text-textColor text-lg font-bold cursor-pointer lg:text-xl'>
+                <li><NavLink to="/" className={({ isActive }) =>
+                    isActive ? 'navLinks' : 'text-textColor'
+                } >Home</NavLink></li>
+                <li ><NavLink to="/about" className={({ isActive }) =>
+                    isActive ? 'navLinks' : 'text-textColor'
+                }>About</NavLink></li>
+                <li ><NavLink to="/services" className={({ isActive }) =>
+                    isActive ? 'navLinks' : 'text-textColor'
+                }>Services</NavLink></li>
+                <li ><NavLink to="/skills" className={({ isActive }) =>
+                    isActive ? 'navLinks' : 'text-textColor'
+                }>Skills</NavLink></li>
+                <li ><NavLink to="/contact" className={({ isActive }) =>
+                    isActive ? 'navLinks' : 'text-textColor'
+                }>Contact</NavLink></li>
 
             </ul>
         </>
