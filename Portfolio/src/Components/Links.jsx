@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Links = () => {
     return (
         <>
-            <ul className='flex flex-col absolute top-4 left-0 w-full items-center z-50 lg:static lg:flex lg:flex-row gap-4 text-textColor text-lg font-bold cursor-pointer lg:text-xl'>
+            <ul className='flex flex-col absolute top-4 left-0 w-full items-center  lg:static lg:flex lg:flex-row gap-4 text-textColor text-lg font-bold cursor-pointer lg:text-xl'>
                 <li><NavLink to="/" className={({ isActive }) =>
                     isActive ? 'navLinks' : 'text-textColor'
                 } >Home</NavLink></li>
