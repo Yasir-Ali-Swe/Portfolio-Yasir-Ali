@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
             {isOpen && (
                 <div
-                    className="fixed inset-0 bg-mainBackground bg-opacity-70 z-30 h-[50%]"
+                    className="fixed inset-0 bg-mainBackground bg-opacity-70 z-30 h-[38%]"
                     onClick={toggleMenu}
                 ></div>
             )}
