@@ -30,7 +30,6 @@ body {
 
 @layer utilities {
   .animate-upDown {
-    @apply animate-none;
     animation: upDown 2.5s ease-in-out infinite;
   }
 
