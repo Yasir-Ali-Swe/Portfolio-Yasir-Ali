@@ -23,4 +23,26 @@ body {
   .text-Shadow-Glow {
     text-shadow: 0 0 8px #0ef;
   }
+  .boxShadow {
+    box-shadow: 0 0 40px #0ef;
+  }
+}
+
+@layer utilities {
+  .animate-upDown {
+    @apply animate-none;
+    animation: upDown 2.5s ease-in-out infinite;
+  }
+
+  @keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 }
