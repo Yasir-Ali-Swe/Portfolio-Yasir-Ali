@@ -21,10 +21,13 @@ body {
     @apply text-selected underline;
   }
   .text-Shadow-Glow {
-    text-shadow: 0 0 8px #0ef;
+    text-shadow: 0 0 15px #0ef;
   }
   .boxShadow {
     box-shadow: 0 0 40px #0ef;
+  }
+  .lightShadow {
+    box-shadow: 0 0 5px #0ef;
   }
 }
 
