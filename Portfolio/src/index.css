@@ -9,6 +9,7 @@ body {
 @theme {
   --color-mainBackground: #070f2b;
   --color-secondaryBackground: #535c91;
+  --color-cardBackground: #1b1a55;
   --color-textColor: #fff;
   --color-selected: #0ef;
 }
