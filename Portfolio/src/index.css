@@ -12,11 +12,15 @@ body {
   --color-cardBackground: #1b1a55;
   --color-textColor: #fff;
   --color-selected: #0ef;
+  --animate-slowSpin: spin 3.5s linear infinite;
 }
 
 @layer components {
   .textAnimation {
     @apply absolute bottom-0 left-0 w-0 h-1 bg-selected transition-all duration-400 ease-in-out group-hover:w-full;
+  }
+  .slowSpin {
+    animation: "spin 3s linear infinite";
   }
   .navLinks {
     @apply text-selected underline;
