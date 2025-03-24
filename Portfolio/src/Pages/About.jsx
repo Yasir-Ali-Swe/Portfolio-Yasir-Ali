@@ -21,9 +21,9 @@ const About = () => {
                 <SocialLinks />
             </div>
             <div className="aboutContainer w-[108%] lg:w-[70%] flex flex-col gap-3 lg:gap-4 text-textColor lg:p-4">
-                <div className="aboutMe border-[1px] lightShadow border-selected rounded-lg">
+                <div className="aboutMe hover:border-2 hover:border-[#0ef]  bg-cardBackground rounded-lg">
                     <h1 className='text-selected px-4 py-2 text-xl texlg:t-2xl font-bold'>About Me</h1>
-                    <p className='px-4 pb-2 text-justify text-textColor text-md lg:text-lg font-semibold'>
+                    <p className='px-4 pb-2 text-justify text-gray-200 text-md lg:text-lg font-semibold'>
                         I am a passionate Software Engineer with 1 year of hands-on experience in full-stack development, specializing in the MERN stack, Next.js, and Flutter.
                         <br />
                         <span className='hidden lg:inline'>
@@ -33,19 +33,19 @@ const About = () => {
                         Let’s build something amazing together!
                     </p>
                 </div>
-                <div className="skills border-[1px] lightShadow border-selected rounded-lg">
+                <div className="skills hover:border-2 hover:border-[#0ef]  rounded-lg bg-cardBackground">
                     <h1 className='text-selected px-4 py-2 text-xl texlg:t-2xl font-bold'>Skills</h1>
                     <div className='px-4 py-2 flex flex-wrap gap-2'>
                         {
                             skills.map((skill, index) => (
-                                <div className='text-selected cursor-pointer text-md lg:text-lg font-semibold bg-secondaryBackground rounded-lg px-2 py-1'>
+                                <div className='text-gray-800 cursor-pointer text-md lg:text-lg font-semibold bg-gray-100 rounded-lg px-2 py-1'>
                                     {skill}
                                 </div>
                             ))
                         }
                     </div>
                 </div>
-                <div className="education border-[1px] lightShadow border-selected rounded-lg mb-3">
+                <div className="education hover:border-2 hover:border-[#0ef]  rounded-lg mb-3 bg-cardBackground">
                     <h1 className='text-selected px-4 py-2 text-xl texlg:t-2xl font-bold'>Education</h1>
                     <p className='px-4 text-justify text-textColor text-md lg:text-lg font-semibold'>Bachelor of Science in Software Engineering</p>
                     <p className='px-4 pb-2 text-justify text-textColor text-md lg:text-lg font-light'>National Textile University,2022-2026</p>
