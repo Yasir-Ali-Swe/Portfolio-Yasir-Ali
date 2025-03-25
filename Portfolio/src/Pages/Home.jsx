@@ -2,6 +2,7 @@ import React from 'react'
 import AnimatedText from '../Components/AnimatedText.jsx'
 import ProfileImg from '../Components/ProfileImg.jsx'
 
+
 const Home = () => {
     return (
         <>
