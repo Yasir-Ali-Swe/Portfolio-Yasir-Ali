@@ -71,7 +71,7 @@ const Services = () => {
                 <div className='flex flex-col justify-center items-center mb-12'>
                     <h1 className='text-2xl font-bold mb-2 text-textColor'>Need a custom solution?</h1>
                     <Link onClick={() => handleExternalLink('https://www.linkedin.com/in/yasir-ali-75541534a/')}>
-                        <button className='mb-4 px-8 py-2 rounded-lg cursor-pointer bg-cardBackground text-textColor text-xl font-bold'>Get in Touch</button>
+                        <button className='mb-4 px-8 py-2 rounded-lg cursor-pointer bg-cardBackground text-textColor text-xl font-bold hover:shadow-myShadow'>Get in Touch</button>
                     </Link>
                 </div>
             </div>

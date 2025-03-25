@@ -2,7 +2,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 function ServiceCard({ icon: Icon, title, description, tags }) {
     return (
-        <div className="bg-cardBackground rounded-lg p-6 shadow-sm max-w-sm hover:border-2 hover:border-[#0ef]">
+        <div className="bg-cardBackground rounded-lg p-6 max-w-sm hover:border-2 hover:border-[#0ef] hover:shadow-myShadow">
             <div className="mb-4">
                 {Icon}
             </div>

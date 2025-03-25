@@ -13,6 +13,7 @@ body {
   --color-textColor: #fff;
   --color-selected: #0ef;
   --animate-slowSpin: spin 3.5s linear infinite;
+  --shadow-myShadow: 0 0 5px #0ef;
 }
 
 @layer components {
