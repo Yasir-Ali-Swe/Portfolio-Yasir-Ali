@@ -20,8 +20,8 @@ const About = () => {
                 <h1 className='text-2xl font-normal lg:text-3xl text-selected '>Full Stack Developer</h1>
                 <SocialLinks />
             </div>
-            <div className="aboutContainer w-[108%] lg:w-[70%] flex flex-col gap-3 lg:gap-4 text-textColor lg:p-4">
-                <div className="aboutMe hover:border-2 hover:border-[#0ef]  bg-cardBackground rounded-lg">
+            <div className="aboutContainer  w-[108%] lg:w-[70%] flex flex-col gap-3 lg:gap-4 text-textColor lg:p-4">
+                <div className="aboutMe hover:border-[1px] hover:border-[#0ef] hover:shadow-myShadow bg-cardBackground rounded-lg">
                     <h1 className='text-selected px-4 py-2 text-xl texlg:t-2xl font-bold'>About Me</h1>
                     <p className='px-4 pb-2 text-justify text-gray-200 text-md lg:text-lg font-semibold'>
                         I am a passionate Software Engineer with 1 year of hands-on experience in full-stack development, specializing in the MERN stack, Next.js, and Flutter.
@@ -33,7 +33,7 @@ const About = () => {
                         Let’s build something amazing together!
                     </p>
                 </div>
-                <div className="skills hover:border-2 hover:border-[#0ef]  rounded-lg bg-cardBackground">
+                <div className="skills hover:border-[1px] hover:shadow-myShadow hover:border-[#0ef]  rounded-lg bg-cardBackground">
                     <h1 className='text-selected px-4 py-2 text-xl texlg:t-2xl font-bold'>Skills</h1>
                     <div className='px-4 py-2 flex flex-wrap gap-2'>
                         {
@@ -45,7 +45,7 @@ const About = () => {
                         }
                     </div>
                 </div>
-                <div className="education hover:border-2 hover:border-[#0ef]  rounded-lg mb-3 bg-cardBackground">
+                <div className="education hover:border-[1px] hover:shadow-myShadow hover:border-[#0ef]  rounded-lg mb-3 bg-cardBackground">
                     <h1 className='text-selected px-4 py-2 text-xl texlg:t-2xl font-bold'>Education</h1>
                     <p className='px-4 text-justify text-textColor text-md lg:text-lg font-semibold'>Bachelor of Science in Software Engineering</p>
                     <p className='px-4 pb-2 text-justify text-textColor text-md lg:text-lg font-light'>National Textile University,2022-2026</p>
